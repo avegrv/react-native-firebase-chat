@@ -1,0 +1,17 @@
+{
+  "name": "stachka-react-native-chat",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^28.0.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "firebase": "5.10.0",
+    "react-native-gifted-chat": "0.3.0",
+    "react-native-keyboard-spacer": "0.4.1",
+    "react-navigation": "2.3.1"
+  }
+}
