@@ -2,7 +2,7 @@
 
 React Native chat implementation using Firebase 🔥
 
-Try with Expo: https://snack.expo.io/@petr63/react-native-chat
+Try with Expo: https://snack.expo.io/@petr63/github.com-avegrv-react-native-firebase-chat
 
 Libraries in use:
 - firebase
