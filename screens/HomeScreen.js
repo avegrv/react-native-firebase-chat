@@ -7,17 +7,13 @@ import {
   View,
 } from 'react-native';
 
-class Main extends React.Component {
-  static navigationOptions = {
-    title: 'Chatter',
-  };
+class HomeScreen extends React.Component {
 
   state = {
     name: '',
   };
 
-  onPress = () =>
-    this.props.navigation.navigate('Chat', { name: this.state.name });
+  onPress = () => this.props.navigation.navigate('Chat', { name: this.state.name });
 
   onChangeText = name => this.setState({ name });
 
@@ -27,7 +23,7 @@ class Main extends React.Component {
         <Text style={styles.title}>Enter your name:</Text>
         <TextInput
           style={styles.nameInput}
-          placeHolder="John Cena"
+          placeHolder="Boris Johnson"
           onChangeText={this.onChangeText}
           value={this.state.name}
         />
@@ -60,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Main;
+export default HomeScreen;

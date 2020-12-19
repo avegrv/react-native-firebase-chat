@@ -1,6 +1,7 @@
 import firebase from 'firebase'; // 4.8.1
 
-class Fire {
+class FirebaseStorage {
+
   constructor() {
     this.init();
     this.observeAuth();
@@ -61,7 +62,7 @@ class Fire {
   get timestamp() {
     return firebase.database.ServerValue.TIMESTAMP;
   }
-  // send the message to the Backend
+  
   send = messages => {
     for (let i = 0; i < messages.length; i++) {
       const { text, user } = messages[i];
@@ -76,11 +77,10 @@ class Fire {
 
   append = message => this.ref.push(message);
 
-  // close the connection to the Backend
   off() {
     this.ref.off();
   }
 }
 
-Fire.shared = new Fire();
-export default Fire;
+FirebaseStorage.shared = new FirebaseStorage();
+export default FirebaseStorage;
