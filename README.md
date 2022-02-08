@@ -7,7 +7,7 @@
 
 # React Native Firebase Chat 😎
 
-React Native chat implementation using Firebase 🔥
+This example demonstrates how you can build chat using Firebase.
 
 ## 🚀 How to use
 
