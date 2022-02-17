@@ -9,10 +9,12 @@
 
 This example demonstrates how you can build chat using Firebase.
 
+![Chat screenshot](https://github.com/avegrv/react-native-firebase-chat/raw/main/chat.png)
+
 ## 🚀 How to use
 
 - Run `yarn` or `npm install`
-- Run [`expo start`](https://docs.expo.dev/versions/latest/workflow/expo-cli/).
+- Run [`expo start`]. If you don't have expo cli, use `yarn global add expo-cli`
 - Please chat
 
 ## 🔌 Libraries in use
