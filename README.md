@@ -9,7 +9,7 @@
 
 This example demonstrates how you can build chat using Firebase.
 
-![Chat screenshot](https://github.com/avegrv/react-native-firebase-chat/raw/main/chat.png)
+![Chat screenshot](https://github.com/avegrv/react-native-firebase-chat/raw/master/chat.png)
 
 ## 🚀 How to use
 
